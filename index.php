@@ -7,9 +7,13 @@
  */
 
 require_once 'ChildOfBase.php';
-$obj= New Base (2,3);
-echo $obj -> sum();
+$obj= new Base(2,3);
+$obj -> sum();
+echo $obj->res;
+
 echo "</br>";
+
 $obj= New ChildOfBase (2,3);
-echo $obj -> umn();
+$obj -> umn();
+echo $obj->res;
 ?>
