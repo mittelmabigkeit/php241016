@@ -10,10 +10,6 @@ require_once 'Base.php';
 
 class ChildOfBase extends Base {
 
-    public function __construct ($a,$b){
-        $this -> a = $a;
-        $this -> b = $b;
-    }
     function umn () {
         $this -> res = $this -> a * $this -> b;
 
