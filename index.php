@@ -13,7 +13,7 @@ echo $obj->res;
 
 echo "</br>";
 
-$obj= New ChildOfBase (2,3);
+$obj= New ChildOfBase (5,3);
 $obj -> umn();
 echo $obj->res;
 ?>

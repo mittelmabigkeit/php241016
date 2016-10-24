@@ -14,7 +14,7 @@ class Base {
         $this -> b = $b;
     }
     function sum () {
-        $this ->res = $this ->a+ $this ->b;
+        $this -> res = $this -> a + $this -> b;
 
     }
 };

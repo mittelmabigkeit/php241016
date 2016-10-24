@@ -15,7 +15,7 @@ class ChildOfBase extends Base {
         $this -> b = $b;
     }
     function umn () {
-        $this ->res = $this ->a* $this ->b;
+        $this -> res = $this -> a * $this -> b;
 
     }
 };
